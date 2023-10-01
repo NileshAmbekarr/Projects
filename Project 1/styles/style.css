@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer ;
+}
+a{
+    text-decoration: none;
+}
+button{
+    height: 30px;
+    width: fit-content;
+    background-color : #520a5e;
+    cursor: pointer ;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    
+}
+button:hover{
+    background-color: white ;
+    color: black;
+    border: 1px solid black;
+}
+/* CSS for navigation Bar / HEADER */
+  
+.Navigation{
+    display: flex;
+    width : 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.logo{
+    font-weight: 700;
+    font-size: 30px;
+    mix-blend-mode: multiply;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+    
+}
+.search-div{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox{
+    padding: 4px 10px ;
+}
+/* Main Section CSS */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-left-section{
+    width : 60% ;
+    padding : 0 8% ;
+    display: flex;
+    flex-direction: column;
+}
+.hero-left-section h1{
+     font-weight: 800;
+     font-size: 45px;
+     margin-bottom : 15px;
+}
+.hero-left-section h1 span{
+    font-weight: bold;
+    color: rgb(18, 155, 155);
+    font-weight: 900; 
+    background-color: #dfdfe0;
+    
+}
+.hero-left-section p{
+    font-weight: 500;
+    
+    font-size: 25px;
+}
+.hero-left-section p span{
+    font-weight: bold;
+    color: rgb(18, 155, 155);
+    font-weight: 900; 
+    background-color: #dfdfe0;
+}
+.hero-right-section{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.hero-right-section button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.person-image{
+    height: 300px;
+    width: 300px;
+    border: 5px solid #c03737;
+    border-radius: 50%;
+}
+
+/* Footer section CSS */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding : 20px 0;
+}
+.left-text{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.social-media-icons{
+    display: flex;
+    justify-items: space-between;
+    gap: 30px;
+
+
+}

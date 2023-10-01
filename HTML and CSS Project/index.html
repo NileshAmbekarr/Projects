@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Project 4</title>
+    <style>
+        body{
+            background-color: #54afaf;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .before{
+            display: none;
+        }
+        .max{
+            display: block;
+        }
+        h1,p{
+            text-align: center;
+        }
+        @media screen and (max-width : 428px) {
+            body{
+            background-color: #98a929;
+            display: flex;
+            flex-direction: column; 
+        }
+            .before{
+                display: none;
+            }
+            .s428px{
+                display: block;
+                font-size: 90px;
+        
+            }
+        }
+        @media screen and (min-width : 428px) {
+            body{
+            background-color: #592717;
+            display: flex;
+            flex-direction: column;
+        }
+            .before{
+                display: none;
+            }
+            .s768px{
+                display: block;
+                font-size: 75px;
+            }
+        }
+        @media screen and (min-width : 768px) {
+            body{
+            background-color: #173570;
+            display: flex;
+            flex-direction: column;
+            }
+            .before{
+                display: none;
+            }
+            .s1024px{
+                display: block;
+                font-size: 50px;
+            }
+        }
+        @media screen and (min-width : 1024px) {
+            body{
+            background-color: #aaaa0c;
+            display: flex;
+            flex-direction: column;
+         
+        }
+            .before{
+                display: none;
+            }
+            .s1440px{
+                display: block;
+                font-size: 35px;
+            }
+        }
+        @media screen and (min-width : 1440px) {
+            body{
+            background-color: #26d6d8;
+            display: flex;
+            flex-direction: column;
+         
+        }
+            .before{
+                display: none;
+            }
+            .max{
+                display: block;
+                font-size: 20px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+     <h1 class="before max">This is a media query Demo page. <br> <p> Screen size :  1440px</p></h1>
+     <h1 class="before s1440px">This is a media query Demo page. <br><p>Screen size : 1024px</p></h1>
+     <h1 class="before s1024px">This is a media query Demo page.<br><p>Screen size : 768px</p></h1>
+     <h1 class="before s768px">This is a media query Demo page.<br><p>Screen size : 428 px</p></h1>
+     <h1 class="before s428px">This is a media query Demo page.<br><p>Screen size : less than 428px</p></h1>
+
+</body>
+</html>

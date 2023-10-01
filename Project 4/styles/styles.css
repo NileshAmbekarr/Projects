@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width : 100wv;
+    margin :15px;
+    background-color: rgb(189, 209, 198);
+    display: flex;
+    flex-direction: column;
+}
+/* header */
+header{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.Navigation-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.Navigation-list li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;  
+}
+/* Main section */
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Right-side-main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width : 45%
+}
+main div h1{
+    font-weight: 900;
+    font-size: 60px;
+    padding: 15px 0;
+}
+.Right-side-main h1 span{
+    color: #3554de;
+}
+.Right-side-main p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#button{
+    background-color: #3554de;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #3554df;
+   
+}
+.services-button{
+    height: 60px;
+    width: 160px;
+}
+.contact-us{
+    height: 50px;
+    width: 120px;
+}

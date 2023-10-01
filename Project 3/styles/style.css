@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-image: url(/Project\ 3/assets/pexels-maxyne-barcel-104022821.png);
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-Around;
+}
+.Nav-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+li a{
+    color: #c1d227;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    justify-self: center;
+}
+/* Main Section CSS */
+main{
+    height: 60%;
+    margin: 20px;
+    padding : 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+main h1{
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color: #c1d227;
+}
+
+#read-menu-button{
+    margin: 20px;
+    align-self: center;
+}
+.Buttons{
+    background-color: #789e3a;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    height: 60px;
+    width: 180px;
+    border: 1px solid rgb(196, 168, 115);
+    border-radius: 5px;
+
+}
+.Arrow-logo{
+    height: 100px;
+    width : 100px;
+    border: 2px solid #fb4646;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5px;
+    right: 2px;
+}

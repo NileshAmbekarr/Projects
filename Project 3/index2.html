@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editing Website</title>
+    <style>
+        /* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+.main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload button styles */
+#photo-upload {
+    display: block;
+    margin: 1rem 0;
+}
+
+#edit-button {
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#edit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Editing tools section styles (customize as needed) */
+.photo-editing-tools {
+    margin-top: 2rem;
+}
+
+/* Edited photo section styles */
+.edited-photo {
+    margin-top: 2rem;
+}
+
+#edited-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#save-button {
+    background-color: #008CBA; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#save-button:hover {
+    background-color: #0077A6; /* Darker blue on hover */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Photo Edit Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Upload and Edit Your Photos</h2>
+        <p>Upload your photos and use our editing tools to enhance them.</p>
+        <input type="file" accept="image/*" id="photo-upload">
+        <button id="edit-button">Edit Photo</button>
+    </section>
+
+    <section class="photo-editing-tools">
+        <h2>Editing Tools</h2>
+        <!-- Add editing tool options here (e.g., filters, cropping, adjustments) -->
+    </section>
+
+    <section class="edited-photo">
+        <h2>Edited Photo</h2>
+        <img id="edited-image" src="" alt="Edited Photo">
+        <button id="save-button">Save</button>
+    </section>
+</body>
+</html>
