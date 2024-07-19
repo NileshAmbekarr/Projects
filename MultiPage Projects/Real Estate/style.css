@@ -1,0 +1,188 @@
+body{
+    color: white;
+    background-color: #efdddd;
+    width: 100vw;
+
+}
+.main-section{
+    width: 100wv;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Photos/mainBackground.png);
+    /* image-rendering: crisp-edges; */
+    border-image-width: auto;
+}
+
+.main-section header{
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.main-content{
+    margin: 0 50px;
+    justify-self:center;
+}
+.main-content h1{
+    font-size: 50px;
+    align-self: center;
+}
+.main-content p{
+    font-weight: 600;
+}
+.main-content a div{
+    color: white;
+    height: 30px;
+    width: 80px;
+    display:inline ;
+    background-color: rgb(49, 45, 248);
+    border: 10px solid rgb(49, 45, 248);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.logo-list{
+    height: 100px;
+    background-color: #f2ebeb;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 30px;
+    justify-self: end;
+    /* align-self: end; */
+}
+.cards-section{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.cards-section h2{
+    font-size: 70px;
+    color: rgb(49, 45, 248);
+}
+.card-row{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    margin: 50px;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.card-info h3{
+    font-size: xx-large ;
+}
+.card-info div div{
+    font-size: 20px;
+}
+.card-info button{
+    font-size: large;
+    color: white;
+    height: 35px;
+    width: 90px;
+    background-color: rgb(49, 45, 248);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.card1{
+    background-image: url(./Photos/cardImage1.png);
+    background-size: cover;
+}
+.card2{
+    background-image: url(./Photos/cardImage2.png);
+    background-size: cover;
+
+}
+.card3{
+    background-image: url(./Photos/cardImage3.png);
+    background-size: cover;
+
+}
+.card4{
+    background-image: url(./Photos/cardImage4.png);
+    background-size: cover;
+
+}
+.card5{
+    background-image: url(./Photos/cardImage5.png);
+    background-size: cover;
+}
+.card6{
+    background-image: url(./Photos/cardImage6.png);
+    background-size: cover;
+}
+.card7{
+    background-image: url(./Photos/cardImage7.png);
+    background-size: cover;
+}
+.card8{
+    background-image: url(./Photos/cardImage8.png);
+    background-size: cover;
+}
+.card9{
+    background-image: url(./Photos/cardImage9.png);
+    background-size: cover;
+}
+.features-section{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.features-section div{
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+}
+.features{
+    width: 60%;
+    color: rgb(49, 45, 248);
+    display: flex;
+    flex-direction: column;
+}
+.features h2{
+    font-size: 40px;
+}
+.feature-image1{
+    background-image: url(./icons/featureImageBg1.svg);
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+.feature-image1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+.feature-image2{
+    background-image: url(./icons/featureImageBg2.png);
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+.feature-image2 img{
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
