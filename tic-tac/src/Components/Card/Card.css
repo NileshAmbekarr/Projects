@@ -6,4 +6,10 @@
     justify-content: center;
     height: 120px;
     width: 120px;
+    transition: border-color 0.5s;
+    border-radius: 8px;
+}
+
+.Cards:hover{
+    border-color: #cde914;
 }
