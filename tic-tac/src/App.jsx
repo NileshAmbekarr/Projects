@@ -1,14 +1,15 @@
 
 import './App.css'
-import Card from './Components/Card/Card'
+// import Card from './Components/Card/Card'
+// import Icon from './Components/Icon/Icon'
+import Grid from './Components/Grid/Grid'
 
 
 function App() {
 
   return (
     <>
-      <h1>Hello Bhai</h1>
-      <Card player = 'X'/>
+      <Grid numberOfCards={9} />
     </>
   )
 }

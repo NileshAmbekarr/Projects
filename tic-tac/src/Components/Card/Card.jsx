@@ -1,16 +1,17 @@
-import {Icon } from '../Icon/Icon';
-
+import Icon from '../Icon/Icon';
+import './Card.css'
 function Card({player}){
-    let icon = <Icon />
-
+    let icon ;
     if (player == 'X') {
-        icon = <Icon name = "cross"/>
-    }else if(player == 'O'){
-        icon = <Icon name = "circle"/>
+        icon = <Icon name="cross" />;
+    } else if (player == 'O') {
+        icon = <Icon name="circle" />;
+    } else {
+        icon = <Icon />  // Simplified fallback
     }
 
     return(
-        <div>
+        <div className='Cards'>
             {icon}
         </div>
     )
