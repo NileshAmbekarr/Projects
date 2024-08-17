@@ -39,7 +39,7 @@ function Grid({numberOfCards}){
             }
             <div className="turn-highlight">Current Turn : {(turn)? 'O' : 'X'}</div>
             <div className="Grid">
-                {board.map((el, idx) => <Card key = {idx} onPlay = {play} player = {el} index = {idx} />) }
+                {board.map((el, idx) => <Card key = {idx} gameEnd = {winner} onPlay = {play} player = {el} index = {idx} />) }
             </div>
             <button className="reset-button" onClick={reset}>Reset Game</button>
         </div>
