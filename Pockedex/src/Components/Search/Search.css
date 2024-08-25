@@ -1,0 +1,11 @@
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#pockemon-searchbar{
+    margin: 1rem;
+     padding: 1rem;
+     width: 600px;
+}
