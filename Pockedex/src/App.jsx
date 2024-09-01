@@ -1,11 +1,12 @@
 import './App.css'
 import Pockedex from './Components/Pockedex/Pockedex'
-// import Search from './Components/Search/Search'
+import PockemonList from './Components/PockemonList/PockemonList'
 function App() {
 
   return (
     <>
         <Pockedex/>
+        <PockemonList></PockemonList>
     </>
   )
 }
