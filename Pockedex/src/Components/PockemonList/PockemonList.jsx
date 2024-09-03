@@ -1,10 +1,19 @@
 import { useState } from "react";
+import axios from "axios";
+function PockemonList(){
+    async function downloadPockemons(){
+        const response = await axios.get('https://pokeapi.co/api/v2/pokemon')
+        console.log(response.data)
+    }
+    useState(() => {
+        downloadPockemons();
+    }, [])
 
-function PockemonList(){\
-    // using React usestate hooks 
-    const [isLoading, setIsLoading ] = useState;
-    const Pockdddddddddddddddddddddddddd
-    return <div>Helllo </div>
+    return (
+        <div className="pockemon-list-wrapper">
+            Pockemon DownLoaded
+        </div>
+    )
 }
 
 export default PockemonList;
