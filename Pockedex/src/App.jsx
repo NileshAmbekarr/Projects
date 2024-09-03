@@ -6,7 +6,7 @@ function App() {
   return (
     <>
         <Pockedex/>
-        <PockemonList></PockemonList>
+        <PockemonList/>
     </>
   )
 }
