@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import './PockemonList.css';
 function PockemonList(){
-    const [PockemonList, getPockemonList] = useState([]);
+    const [PockemonList, setPockemonList] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
 
@@ -13,6 +13,13 @@ function PockemonList(){
         const pockemonResultsPromise = PockemonResults.map((pockemon) => {axios.get(pockemon.url)});
         const PockemonData = await axios.all(pockemonResultsPromise);
         console.log(PockemonData);
+        const res = PockemonData.map((pokedata) => {
+            const pokemon = pokedata.data;
+            return [name: pokemon.name, 
+                    image: pokemon.sprites.other.dream_world.front_default ,
+                    types : pokemon.types
+            ]
+        });
         setIsLoading(false);
     }
     useState(() => {
